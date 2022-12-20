@@ -1,0 +1,44 @@
+html, body{
+    height: 100%;
+    background-color: bisque;
+}
+#left, #right{
+    width: 40%; 
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    font-size: 1.2em;
+}
+#left{
+    position: absolute;
+    left: 5%;
+}
+#right{
+    position: absolute;
+    right: 5%;
+}
+h5, input{
+    margin-left: 20px;
+}
+.check{
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 100px;
+    height: 100%;
+}
+.check div{
+    height: 50px;
+    width: 100%;
+}
+button{
+    padding: 5px;
+    margin-left: 20px;
+    font-size: 16px;
+}
+#score,
+h2{
+    margin-left: 20px;
+}
